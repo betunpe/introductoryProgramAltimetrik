@@ -1,0 +1,55 @@
+What is GIT?
+Git is a free and open-source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. With Git you and your team will be able to have multiple local branches that can be completely independent. 
+A Branch is a copy of the original code that hosts in your local machine. In your branches, you can make changes and fix your code for later merging it with the master branch that contains the original code (Merge). 
+
+Useful commands
+1
+git init -> Create an empty Git repository or reinitialize an existing
+
+2
+git clone <path_of_repository> -> Clone a remote repository (example https://github.com/betunpe/introductoryProgramAltimetrik) or a local repository 
+
+3
+git add <name_of_the_file> -> Add file contents to the index (git add . ) add all files
+
+4
+git status -> Show the working status of the current branch
+
+5
+git diff -> Show changes between commits between two branches (for example de main and the local)
+
+6
+git commit -m <message_of_the_commit> -> Record changes to the repository, it is a snapshot of your repository
+
+7
+git pull <name-remoto> -> Downloads the contents of the specified remote repository. 
+
+8
+git push <name-remoto> -> Push the changes to the remote repository
+
+9
+git branch <name_of_the_branch> -> To create a new local branch, to push the new branch to the remote repository the correct command is:
+git push <name-remoto> <name_of_the_branch>
+
+
+10
+git branch -> Show all branches
+
+11
+git checkout <name_branch> -> To change branch
+
+
+12
+git revert <number_of_commit> -> Reverse the effects of some earlier commits. 
+Example commit number 943c650, commando should be: git revert 943c650
+
+13
+git merge -> Join two or more branches
+
+
+
+Links
+https://www.atlassian.com/ 
+https://git-scm.com/
+https://www.freecodecamp.org/espanol/news/10-comandos-de-git-que-todo-desarrollador-deberia-saber/ 
+https://medium.com/@vogeleah/tags-vs-branches-in-git-16c4a3dc0a1f
