@@ -1,0 +1,14 @@
+$color-gainsboro: gainsboro;
+$letter-color: green;
+
+.box-1 {
+    h2 {
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    p {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration:underline;
+        background-color: $letter-color;
+    }
+  }
